@@ -1,0 +1,15 @@
+{
+    "name": "maskphp/maskphp",
+    "authors": [
+        {
+            "name": "MaskPHP",
+            "email": "support@maskphp.com"
+        }
+    ],
+    "require": {
+        "maskphp/framework": "1.0",
+        "twig/twig": "~1.0",
+        "illuminate/database": "~5.0",
+        "vlucas/phpdotenv": "2.3"
+    }
+}

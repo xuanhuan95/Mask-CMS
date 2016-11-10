@@ -1,0 +1,5 @@
+vendor/
+app/config/.env
+error.log
+access.log
+sftp-config.json

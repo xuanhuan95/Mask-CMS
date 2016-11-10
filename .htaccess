@@ -1,0 +1,5 @@
+# turnon rewrite
+RewriteEngine On
+
+# redirect all to public/index.php
+RewriteRule ^ public/ [L]

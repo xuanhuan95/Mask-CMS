@@ -1,0 +1,11 @@
+# allow direct access to all
+Allow from all
+
+# turnon rewrite
+RewriteEngine On
+
+# restrict access to static file, folder
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# redirect all to public/index.php
+RewriteRule ^ index.php [L]

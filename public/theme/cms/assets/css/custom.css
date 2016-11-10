@@ -1,0 +1,162 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+
+a:hover { 
+    text-decoration: none; 
+} 
+
+i.fa {
+	margin-right: 4px;
+}
+
+
+/***
+Breadcrumb Font Size
+***/ 
+.page-breadcrumb li a {
+    font-size: 15px;
+}
+.page-breadcrumb li.active span {
+    font-size: 18px;
+    color: #000;
+}
+/***
+Thông tin sự kiện (Địa điểm, thời gian)
+***/
+.title-event-info p {
+    font-size: 14px;
+    color: #678098
+}
+.title-event-info i.fa {
+    color: #a7bdcd;
+}
+
+/***
+Search Input Blue Steel Portlet
+***/
+.portlet.box.blue-steel > .portlet-title > .inputs {
+    float: right;
+    display: inline-block;
+    padding: 6px 0;
+}
+.portlet.box.blue-steel > .portlet-title > .inputs > .portlet-input .input-icon > i {
+    font-size: 14px;
+    margin-top: 9px;
+    color: #fbfcfc;
+}
+.portlet.box.blue-steel > .portlet-title > .inputs > .portlet-input .input-icon > .form-control {
+    background: transparent;
+    border: 1px solid #ecf0f1;
+    color: #fbfcfc;
+    height: 30px;
+    padding: 2px 26px 3px 10px;
+    font-size: 13px;
+}
+.portlet.box.blue-steel > .portlet-title > .inputs > .portlet-input > .form-control {
+    height: 30px;
+    padding: 3px 10px;
+    font-size: 13px;
+}
+.portlet.box.blue-steel > .portlet-title > .inputs > .portlet-input > .form-control:focus {
+    border-color: #fbfcfc;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.portlet.box.blue-steel > .portlet-title > .inputs > .portlet-input ::-webkit-input-placeholder {
+    color: #ecf0f1;
+}
+.portlet.box.blue-steel > .portlet-title > .inputs > .portlet-input :-moz-placeholder {
+    color: #ecf0f1;
+}
+.portlet.box.blue-steel > .portlet-title > .inputs > .portlet-input ::-moz-placeholder {
+    color: #ecf0f1;
+}
+.portlet.box.blue-steel > .portlet-title > .inputs > .portlet-input :-ms-input-placeholder {
+    color: #ecf0f1;
+}
+
+/***
+Thông tin đơn hàng
+***/
+.note.note-default h3.block {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #34495e;
+}
+.note.note-default .general-item-list .item {
+    margin-bottom: 5px;
+}
+.note.note-default label {
+    font-weight: 600;
+}
+.note.note-default,
+.note.note-default  label,
+.note.note-default table tr th,
+.note.note-default table tr td,
+.note.note-default .general-item-list .item {
+    font-size: 15px;
+}
+
+/***
+Thông tin từng vé
+***/
+.note.note-shadow.note-sm {
+    padding: 10px;
+}
+.note.note-shadow.note-sm h4 {
+    font-size: 20px;
+}
+.portlet.box.blue-steel.ticket-info .portlet-body .general-item-list .item {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.portlet.box.blue-steel.ticket-info .portlet-body label {
+    font-weight: 600;
+}
+
+/***
+Nhập ghi chú
+***/
+.note-comment .item-details {
+    display: inline-block;
+    float: left;
+}
+.note-comment .item-details .item-pic {
+    height: 34px;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+.note-comment .item-input input {
+    border-radius: 0;
+}
+.note-comment .item-input ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #95a5a6;
+}
+.note-comment .item-input ::-moz-placeholder { /* Firefox 19+ */
+  color: #95a5a6;
+}
+.note-comment .item-input :-ms-input-placeholder { /* IE 10+ */
+  color: #95a5a6;
+}
+.note-comment .item-input :-moz-placeholder { /* Firefox 18- */
+  color: #95a5a6;
+}
